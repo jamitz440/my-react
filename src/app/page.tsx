@@ -18,10 +18,12 @@ export default function Home() {
             title={item.title}
             image={item.image}
             description={item.description}
+            id={item.id}
           />
         ))}
       </div>
       <Link href="/about">About</Link>
+      <Link href="/product">product</Link>
     </>
   );
 }

@@ -8,16 +8,19 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import Link from "next/link";
 
 type ProductCardProps = {
   title: string;
   image: string;
   description: string;
+  id: string;
 };
 export const ProductCard: FC<ProductCardProps> = ({
   title,
   image,
   description,
+  id,
 }) => {
   console.log(image);
   return (
@@ -34,7 +37,9 @@ export const ProductCard: FC<ProductCardProps> = ({
           <CardTitle className="truncate">{title}</CardTitle>
           <CardDescription>{description}</CardDescription>
         </CardHeader>
-        <CardContent className=""></CardContent>
+        <CardContent className="">
+          <Link href={`/products/${id}`}>Go to item</Link>{" "}
+        </CardContent>
       </Card>
     </div>
   );
