@@ -1,0 +1,18 @@
+{
+    "id": 2,
+    "title": "Octopus",
+    "description": "An octopus.",
+    "image": "/src/assets/Octopus.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Skull",
+    "description": "A skull.",
+    "image": "/src/assets/skull.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Toothless",
+    "description": "Toothless from How to Train Your Dragon.",
+    "image": "/src/assets/toothless.jpg"
+  }

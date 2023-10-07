@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Frog Swearing",
+      "description": "A frog swears at you.",
+      "image": "https://d1uoeivxzszfc5.cloudfront.net/frog.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Octopus",
+      "description": "An octopus.",
+      "image": "https://d1uoeivxzszfc5.cloudfront.net/Octopus.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Skull",
+      "description": "A skull.",
+      "image": "https://d1uoeivxzszfc5.cloudfront.net/skull.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Toothless",
+      "description": "Toothless from How to Train Your Dragon.",
+      "image": "https://d1uoeivxzszfc5.cloudfront.net/toothless.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Tiny Frog",
+      "description": "A tiny frog.",
+      "image": "https://d1uoeivxzszfc5.cloudfront.net/Frog-2.jpg"
+    }
+  ]
+}
