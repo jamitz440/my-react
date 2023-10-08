@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React from "react";
 import items from "src/assets/data/database.json";
-import * as Navigation from "next/navigation";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 export default function Page() {
@@ -21,7 +21,7 @@ export default function Page() {
       </h1>
       <div>Your ID is: {lastPart}</div>
       <div>
-        <img src={item.image} alt={item.title} />
+        <Image src={item.image} alt={item.title} width={200} height={200} />
         <div>{item.title}</div>
         <div>{item.description}</div>
       </div>
